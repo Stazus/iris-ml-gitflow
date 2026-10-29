@@ -1,0 +1,26 @@
+# Dane projektu
+data/*
+!data/.gitkeep
+
+# Wytrenowane modele
+models/*
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Srodowiska wirtualne
+venv/
+.venv/
+env/
+ds_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pliki systemowe i tymczasowe
+.DS_Store
+Thumbs.db
+*.log
